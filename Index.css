@@ -1,6 +1,22 @@
+/* nav sections  */
 .nav-item a{
-    color: black; !important
+    color: black;
 }
 .nav-item a:hover{
     color: green;
+}
+
+
+/* Home carousel  */
+.carousel-item img{
+    height: 623px;
+}
+
+/* about section  */
+.abt-sec{
+    margin-top: 10rem;
+}
+.content-paragraph{
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
