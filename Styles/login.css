@@ -1,0 +1,15 @@
+/* page background  */
+body{
+    background-image: url(https://wallpaperaccess.com/full/1431622.jpg);
+    background-size: 1537px 750px;
+    background-repeat: no-repeat;
+}
+
+/* Create new acc or forgot pswd  */
+.acc-pswd-lnk{
+    color: white;
+    transition: 0.5s
+}
+.acc-pswd-lnk:hover{
+    color: rgb(19, 120, 235);
+}
