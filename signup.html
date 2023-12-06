@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerala Tourism - Login</title>
+    <title>Kerala Tourism - SignUp</title>
 
     <!-- cutom stylesheet  -->
     <link rel="stylesheet" href="Styles/login.css">
@@ -19,14 +19,29 @@
 
 
 <body>
-    <section class="">
+    <section>
 
         <!-- card Title  -->
-        <div class="shadow h-75 position-absolute top-50 start-50 translate-middle p-5 bg-secondary bg-opacity-25 rounded" style="width: 510px;">
-            <h5 class="text-center my-5 fw-bold text-white ">Login / Sign-In</h5>
+        <div class="shadow position-absolute top-50 start-50 translate-middle p-5 bg-secondary bg-opacity-25 rounded" style="width: 510px;">
+            <h5 class="text-center my-5 fw-bold text-white ">Sign up / Create new account</h5>
 
-            <!-- login form  -->
+            <!-- Sign-Up form  -->
             <form>
+
+                <!-- name form  -->
+                <div class="row mb-3">
+                    <!-- first name  -->
+                    <div class="col">
+                        <label for="fName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="fName">
+                    </div>
+
+                    <!-- last name -->
+                    <div class="col">
+                        <label for="lName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lName">
+                    </div>
+                </div>    
 
                 <!-- for e-mail  -->
                 <div class="mb-3">
@@ -39,21 +54,27 @@
                   <label for="exampleInputPassword1" class="form-label">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                </div>
+                
+                <!-- Privacy Details  -->
+                <p class="privacy-details">
+                    By clicking Join now, you agree to Kerala Tourism's 
+                    <a href="" class="acc-pswd-lnk">User Agreement</a>
+                    ,
+                    <a href="" class="acc-pswd-lnk">Privacy Policy</a>
+                    , and
+                    <a href="" class="acc-pswd-lnk">Cookie Policy</a>
+                </p>
 
                 <!-- login button  -->
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary">Join now</button>
                 </div>
             </form>
+
             <div class="mt-5 text-center">
                 <p class="text-white">
-                    <a href="./signup.html" class="acc-pswd-lnk">Create new account</a>
-                     | 
-                    <a href="" class="acc-pswd-lnk">Forgot password</a> 
+                    Already on Kerala Tourism ?
+                    <a href="./login.html" class="text-decoration-none">Sign in</a> 
 
                 </p>
             </div>

@@ -13,3 +13,13 @@ body{
 .acc-pswd-lnk:hover{
     color: rgb(19, 120, 235);
 }
+
+
+
+/* sign-up Page  */
+
+/* privacy details / policies  */
+.privacy-details{
+    font-size: 12px;
+    /* color: white;  */
+}
