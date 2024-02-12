@@ -1,6 +1,6 @@
 /* page background  */
 body{
-    background-image: url(https://wallpaperaccess.com/full/1431622.jpg);
+    background-image: url(../Body_BG.jpg);
     background-size: 1537px 750px;
     background-repeat: no-repeat;
 }
@@ -21,5 +21,20 @@ body{
 /* privacy details / policies  */
 .privacy-details{
     font-size: 12px;
-    /* color: white;  */
 }
+
+#email-error-msg{
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    border-radius: 6px;
+    text-shadow: 10px;
+    display: none; 
+ }
+
+ #pswd-error-msg{
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    border-radius: 6px;
+    text-shadow: 10px;
+    display: none; 
+ }
